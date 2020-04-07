@@ -4,7 +4,7 @@ import (
   "github.com/gorilla/mux"
   "net/http"
   "strconv"
-  "controller"
+  "github.com/souravTT/testing_go/controller"
 )
 
 func groupPaths(router *mux.Router){
