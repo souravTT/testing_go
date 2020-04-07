@@ -7,15 +7,9 @@
   revision = "75dcda0896e109a2a22c9315bca3bb21b87b2ba5"
   version = "v1.7.4"
 
-[[projects]]
-  branch = "master"
-  name = "github.com/souravTT/testing_go"
-  packages = ["controller"]
-  revision = "1a36e8fb95e4ef4554d47140e12977ac853b1c3a"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "02c8887620102f81c2664f47c0f8beb8f7573d69531ecabc610de26ee58fd183"
+  inputs-digest = "55594e596d8d916dafa26717f1bc060695a637c8e0686511b4cc775be1ac47df"
   solver-name = "gps-cdcl"
   solver-version = 1
