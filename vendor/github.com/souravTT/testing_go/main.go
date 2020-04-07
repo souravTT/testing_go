@@ -4,11 +4,12 @@ import (
   "github.com/gorilla/mux"
   "net/http"
   "strconv"
-  "github.com/souravTT/testing_go/controller"
+  "github.com/souravTT/testing_go/app/controller"
 )
 
 func groupPaths(router *mux.Router){
 	router.HandleFunc("/groups", controller.Group.Index).Methods(http.MethodGet)
+  router.HandleFunc("/group/new", controller.Group.New).Methods(http.MethodGet)
 	router.HandleFunc("/group/{id}", controller.Group.Show).Methods(http.MethodGet)
 	router.HandleFunc("/group", controller.Group.Create).Methods(http.MethodPost)
 	router.HandleFunc("/group/{id}", controller.Group.Update).Methods(http.MethodPut)

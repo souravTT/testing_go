@@ -10,12 +10,12 @@
 [[projects]]
   branch = "master"
   name = "github.com/souravTT/testing_go"
-  packages = ["controller"]
-  revision = "1a36e8fb95e4ef4554d47140e12977ac853b1c3a"
+  packages = ["app/controller"]
+  revision = "69694f220e4562087c460ec5dd12e9241fb2666f"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "02c8887620102f81c2664f47c0f8beb8f7573d69531ecabc610de26ee58fd183"
+  inputs-digest = "e04632d047cb5a0ff595d1423a186fcd1f0255e8b57b6d654e227535442cf271"
   solver-name = "gps-cdcl"
   solver-version = 1
